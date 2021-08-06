@@ -4,9 +4,9 @@ Speedometer to track max speed and 0 to X time for rc cars using ESP8266, Oled d
 
 Wemos D1 mini pin out:
 <ul>
-</li>D1 and D2, 3.3V and GND > OLED </li>
-</li>D6 and D7 , 5v and GND > GPS (wemos D6 to tx on gps module)(wemos D7 to Rx on gps module)</li>
-</li>D3 and GND > Button</li>
+<li>D1 and D2, 3.3V and GND > OLED </li>
+<li>D6 and D7 , 5v and GND > GPS (wemos D6 to tx on gps module)(wemos D7 to Rx on gps module)</li>
+<li>D3 and GND > Button</li>
 </ul>
   
 Parts:
@@ -32,6 +32,6 @@ Button use:
 <li>Long(3s) = change target speed for 0 to target(increments by 10)</li>
 </ul>
 <br/>
-<p align="right">
+<p align="left">
   <img src="https://github.com/lbento27/esp-rc-gps-speedometer/blob/main/Resources/IMG_3372.JPG?raw=true" width="700">
 </p>
