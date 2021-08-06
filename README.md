@@ -13,6 +13,7 @@ Parts:
 <ul>
 <li>Wemos D1 Mini and its matching 64x48 OLED sheild.</li>
 <li>GPS module was an U-blox NEO 6M part number GY-GPS6MV2.</li>
+<li>Button</li>
 </ul>
 
 Required libraries include:
@@ -22,8 +23,6 @@ Required libraries include:
 <li>Tiny GPS++</li>
 <li>Font-provided in project folder</li>
 </ul>
-Notes on using different fonts https://learn.adafruit.com/adafruit-gfx-graphics-library/using-fonts
-
 
 
 Button use:
@@ -31,7 +30,9 @@ Button use:
 <li>Short(1s)= reset status, time and max speed</li>
 <li>Long(3s) = change target speed for 0 to target(increments by 10)</li>
 </ul>
+<p>More inf in comments code</p>
 <br/>
+
 <p align="left">
   <img src="https://github.com/lbento27/esp-rc-gps-speedometer/blob/main/Resources/IMG_3372.JPG?raw=true" width="700">
 </p>
